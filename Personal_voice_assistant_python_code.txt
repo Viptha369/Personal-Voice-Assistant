@@ -2,7 +2,7 @@ import pyttsx3
 import openai
 import speech_recognition
 
-openai.api_key = "YOUR_OPENAI_KEY"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 r = speech_recognition.Recognizer()
 
 with speech_recognition.Microphone() as source:
