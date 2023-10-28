@@ -1,6 +1,6 @@
 # Personal-Voice-Assistant
 This project utilizes the power of <b>Python programming </b> language to create a conversational AI that can understand and respond to natural language inputs. 
-<br>
+
 <li>
   <ul>
   The user can speak to the AI, which will then convert their speech into text and feed it into the ChatGPT model. ChatGPT is a state-of-the-art language generation model that can understand and respond to a wide range of natural language inputs.
