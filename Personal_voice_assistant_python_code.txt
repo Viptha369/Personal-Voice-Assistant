@@ -1,0 +1,23 @@
+import pyttsx3
+import openai
+import speech_recognition
+
+openai.api_key = "YOUR_OPENAI_KEY"
+r = speech_recognition.Recognizer()
+
+with speech_recognition.Microphone() as source:
+  r.adjust_for_ambient_noise(source)
+  print("ask me anything")
+  audio = r.listen(source)
+  hey = r.recognize_google(audio)
+  speech = hey
+response = openai.Completion.create(
+  model="text-davinci-003", prompt=speech, temperature=0, max_tokens=4000)
+print(response)
+text = response["choices"][0]["text"]
+
+text_speech = pyttsx3.init()
+
+print(text)
+text_speech.say(text)
+text_speech.runAndWait()
