@@ -1,5 +1,5 @@
-<b>pyttsx3</b>- is a text-to-speech conversion library in Python.
+pyttsx3- is a text-to-speech conversion library in Python.
 
-<b>openai</b> -The OpenAI Python library provides convenient access to the OpenAI API from applications written in the Python language. 
+openai -The OpenAI Python library provides convenient access to the OpenAI API from applications written in the Python language. 
 
-<b>speech_recognition</b> - Library for performing speech recognition, with support for several engines and APIs, online and offline.
+speech_recognition - Library for performing speech recognition, with support for several engines and APIs, online and offline.
