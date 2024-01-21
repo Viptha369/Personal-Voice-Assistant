@@ -11,8 +11,6 @@ This project utilizes the power of <b>Python programming </b> language to create
   <ul>
     This project demonstrates the potential of natural language processing and AI to create more intuitive and human-like interactions with technology. 
   </ul>
-  <ul>
-     It also showcases the versatility of Python in building complex and sophisticated AI applications. Overall, this project is a great example of how technology can be used to make our lives easier and more convenient.
-  </ul>
+
 </li>
 
